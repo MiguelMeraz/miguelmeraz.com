@@ -1,3 +1,63 @@
-body {
-  background-color: lightcoral;
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(222, 221, 221);
+  font-family: 'Raleway', sans-serif;
+}
+
+/*hero: using position to center it on page*/
+.hero{
+  margin: auto;
+  padding: 0;
+  width: 85vw;
+
+  
+  position: relative;
+  top: 50px;
+}
+
+/*hero-container: adding flexbox*/
+.hero-container{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+/*left-container*/
+.left-container {
+  text-align: justify;
+  align-self: center;
+  width: 600px;
+}
+
+.left-container p{
+  line-height: 1.8;
+  word-spacing: 0.2rem;
+}
+
+
+/*Editing the image*/
+figure img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  min-width: 200px;
+  max-width: 500px;
+
+  border: 2px solid rgb(9, 9, 9);
+  border-radius: 10px;
+
+}
+
+/*Any media query code goes below */
+@media all and  (min-width: 300px){
+  .hero-container{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    align-items: center;
+  }
 }
