@@ -54,7 +54,7 @@ figure img {
 }
 
 /*Any media query code goes below */
-@media all and  (min-width: 300px){
+@media (min-width: 300px){
   .hero-container{
     display: flex;
     flex-flow: row wrap-reverse;
