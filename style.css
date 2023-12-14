@@ -39,6 +39,11 @@ html{
   word-spacing: 0.2rem;
 }
 
+#sign{
+  text-align: center;
+  text-decoration: underline;
+}
+
 
 /*Editing the image*/
 figure img {
